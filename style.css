@@ -134,7 +134,7 @@ h1 {
     display: flex; 
     flex-direction: column; 
     width: 100%; 
-    height: 250px; 
+    height: 0px; 
     justify-content: right; 
     align-items: center; 
     background-color: rgba(255, 255, 255, 0); 
@@ -237,4 +237,120 @@ h1 {
     background-size: 900px; 
     background-repeat: no-repeat; 
     margin-right: 8px; 
+}
+
+.rhythmico-container {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.container2017 {
+    margin: .25em; 
+    display: grid; 
+    grid-template-columns: .25fr 1fr .25fr;
+    grid-auto-rows: minmax(auto 100px);  
+    grid-gap: .25em; 
+}
+
+.container2017 > div {
+    background-color: gray; 
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-content: center;
+    align-items: center; 
+}
+
+.image2017no1 {
+    background-image: url(/assets/2017one.JPG); 
+    background-size: 100%; 
+    height: 250px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no2 {
+    background-image: url(/assets/2017two.JPG); 
+    background-size: 100%; 
+    height: 300px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no3 {
+    background-image: url(/assets/2017three.JPG); 
+    background-size: 100%; 
+    height: 300px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no5 {
+    background-image: url(/assets/2017five.JPG); 
+    background-size: 100%; 
+    height: 400px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no6 {
+    background-image: url(/assets/2017six.JPG); 
+    background-size: 100%; 
+    height: 300px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no7 {
+    background-image: url(/assets/2017seven.JPG); 
+    background-size: 100%; 
+    height: 400px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no8 {
+    background-image: url(/assets/2017eight.JPG); 
+    background-size: 100%; 
+    height: 400px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no9 {
+    background-image: url(/assets/2017nine.JPG); 
+    background-size: 100%; 
+    height: 400px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no10 {
+    background-image: url(/assets/2017eleven.JPG); 
+    background-size: 100%; 
+    height: 300px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no11 {
+    background-image: url(/assets/2017twelve.JPG); 
+    background-size: 100%; 
+    height: 400px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.image2017no12 {
+    background-image: url(/assets/2017twenty.JPG); 
+    background-size: 100%; 
+    height: 550px; 
+    background-position: center; 
+    grid-column: 2; 
+}
+
+.selected-nav {
+    color: gray; 
 }
